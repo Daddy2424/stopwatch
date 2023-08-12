@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100vh;
+  gap: 20px;
+  background-image: url(ocean.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1.5s ;
+}
+
+.insideContainer{
+  background-color: aqua;
+  padding: 70px 0px 70px 0px;
+  background-color: darkgray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(ocean.jpg);
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 12px 20px black;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1.5s ;
+}
+
+
+
+.title{
+  position: relative;
+  margin-top: -150px;
+}
+.heading{
+  transition: color 1.5s;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+
+.dodo{
+  display: flex;
+  gap: 5px;
+  width: 140px;
+  justify-content: center;
+  z-index: 1;
+  background: transparent;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+}
+.dodo3{
+  background-color: black;
+  padding: 3px;
+  border-radius: 4px;
+}
+.dodo2{
+  background-color: black;
+  padding: 3px;
+  border-radius: 4px;
+}
+.dodo1{
+  background-color: black;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.buttons{
+  display: flex;
+  gap: 10px;
+  width: 300px;
+  justify-content: center;
+  margin-top: 20px;
+  z-index: 1;
+}
+
+.resetbutton button{
+  padding: 10px;
+  border: none;
+  background-color: white;
+  border-radius: 4px ;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.resetbutton button:hover{
+  background-color: black;
+  color: white;
+}
+
+.button button{
+  padding: 10px;
+  border: none;
+  background-color: white;
+  border-radius: 4px ;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button button:hover{
+  background-color: black;
+  color: white;
+}
+
+
