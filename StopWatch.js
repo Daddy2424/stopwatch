@@ -20,6 +20,7 @@ const setTimeoutNum = 10;
 let timeout;
 let imageIndex = 0;
 let ifImageLoopNum = 0;
+let ifImageLoopNumCounttimeout;
 
 
 
@@ -98,7 +99,7 @@ function resetstopwatch(){
   num1display()
   num2display()
   num3display()
-  clearTimeout(ifImageLoopNumCount)
+  clearTimeout(ifImageLoopNumCounttimeout)
   resetbutton.style.display ='none'
 }
 
@@ -171,7 +172,7 @@ function ifImageLoop(){
 
 // function for incrementing ifImageloopNum with 10 seconds timeintervel
 function ifImageLoopNumCount(){
-  setTimeout(ifImageLoopNumCount,10000)
+  ifImageLoopNumCounttimeout = setTimeout(ifImageLoopNumCount,10000)
   ifImageLoopNum++
 }
 
